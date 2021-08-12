@@ -1,0 +1,19 @@
+{
+    "autoload": {
+        "files": [
+            "src/oop/example.php",
+            "src/web/functions.php"
+        ],
+        "psr-4": {
+            "src\\": "src/",
+            "basics\\": "src/basics",
+            "strings\\": "src/strings",
+            "arrays\\": "src/arrays",
+            "functions\\": "src/functions"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "phpunit/phpunit": "^9.2"
+    }
+}
