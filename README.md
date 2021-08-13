@@ -9,7 +9,7 @@
  * Fork your own copy of repository to your account
  * Clone to your PC
  * `cd` into cloned repository folder
- * Execute in terminal `git remote add upstream https://github.com/LvivScriptCommunity/phplab-tasks.git`
+ * Execute in terminal `git remote add upstream https://github.com/LvivScriptCommunity/phplab-tasks-2021.git`
  * Execute in terminal `composer install`
  
 ## PHP Unit
