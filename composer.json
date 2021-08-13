@@ -1,7 +1,6 @@
 {
     "autoload": {
         "files": [
-            "src/oop/example.php",
             "src/web/functions.php"
         ],
         "psr-4": {
