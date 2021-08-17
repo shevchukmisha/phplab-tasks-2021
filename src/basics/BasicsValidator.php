@@ -48,7 +48,7 @@ class BasicsValidator implements BasicsValidatorInterface
     public function isValidStringException(string $input): void
     {
         // TODO: Implement isValidStringException() method.
-        if (!(ctype_digit($input)) && $input > 6 ) {
+        if (!(ctype_digit($input)) || strlen($input) < 6 ) {
             throw new \InvalidArgumentException();
         }
     }

@@ -64,6 +64,13 @@ class Basics implements BasicsInterface
     public function isLeapYear(int $year): bool
     {
         // TODO: Implement isLeapYear() method.
+        $this->validator->isYearException($year);
+        if ((($year % 4) == 0) && ((($year % 100) != 0) || ($year % 400) == 0) ) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     /**
@@ -82,6 +89,21 @@ class Basics implements BasicsInterface
     public function isSumEqual(string $input): bool
     {
         // TODO: Implement isSumEqual() method.
+        $this->validator->isValidStringException($input);
+        $m = 100000;
+        $n = 999999;
+
+        for ($i = $m; $i <= $n; $i++){
+            $s1 = $input[0]+$input[1]+$input[2];
+            $s2 = $input[3]+$input[4]+$input[5];
+            if ($s1 == $s2){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
     }
 
 
