@@ -8,9 +8,6 @@ class BasicsValidator implements BasicsValidatorInterface
 {
 
     /**
-     * Implement the check functionality described in the method getMinuteQuarter (BasicsInterface Class) which throws Exception.
-     *
-     * Make sure the next PHPDoc instructions will be added:
      * @param int $minute
      * @throws \InvalidArgumentException
      */
@@ -23,9 +20,6 @@ class BasicsValidator implements BasicsValidatorInterface
     }
 
     /**
-     * Implement the check functionality described in the method getMinuteQuarter (BasicsInterface Class) which throws Exception.
-     *
-     * Make sure the next PHPDoc instructions will be added:
      * @param int $year
      * @throws \InvalidArgumentException
      */
@@ -39,9 +33,6 @@ class BasicsValidator implements BasicsValidatorInterface
     }
 
     /**
-     * Implement the check functionality described in the method getMinuteQuarter (BasicsInterface Class) which throws Exception.
-     *
-     * Make sure the next PHPDoc instructions will be added:
      * @param string $input
      * @throws \InvalidArgumentException
      */
